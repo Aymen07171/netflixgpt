@@ -1,0 +1,17 @@
+Netflix-GPT 
+- Configure README : on any step 
+- npx create-react-app nextflix-gpt
+-  Configure  Tailwindcss 
+-Features  : 
+- Login / Sign Up 
+	-  Redirect to Browser Page 
+- Browser (After the authentification   )
+	-  Header 
+	- Main Movie 
+		-  Ttile in Background 
+		-  Title Description 
+		-  Movies Suggestion 
+			-  MoviesList (Scroll)
+-  NetflixGPT 
+	- Search Bar
+	-  Movie Suggestions 
