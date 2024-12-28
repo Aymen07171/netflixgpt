@@ -1,4 +1,3 @@
-
 Netflix-GPT 📺✨
 Welcome to Netflix-GPT, a revolutionary blend of movie browsing and AI-powered recommendations!
 
@@ -28,11 +27,11 @@ NetflixGPT 🧠
 Search Bar for intuitive movie finding
 Movie Suggestions powered by AI
 
+---- --------- Listing Components -------------- -------
 
+MainContainer Component
+VideoBackground Component
+VideoTitle Component
 
-
-
-
-
-
-
+Browse Component
+MovieList Component
