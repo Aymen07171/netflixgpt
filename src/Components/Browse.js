@@ -3,11 +3,12 @@ import Header from './Header'
 import MainContainer from './MainContainer'
 import SecondaryContainer from './SecondaryContainer'
 import useTrendMovie from '../Hooks/useTrendMovie'
-
+import GptSearch from './GptSearch'
+import { useSelector } from 'react-redux'
 
     const Browse = () => {
 
-
+        const showGptSearch = useSelector(store => store.gpt.showGptSearch);
         useMovieTrailer();
         useTrendMovie();
 
@@ -16,8 +17,14 @@ import useTrendMovie from '../Hooks/useTrendMovie'
     return (
         <div>
             <Header />
-            <MainContainer />
-            <SecondaryContainer />
+            {showGptSearch ? (
+                <GptSearch />
+            ) : (
+                <>
+                    <MainContainer />
+                    <SecondaryContainer />
+                </>
+            )}
         </div>
     )
     }
